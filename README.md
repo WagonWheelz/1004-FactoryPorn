@@ -1,3 +1,5 @@
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 # !! Disclaimer !!
 **Read the description for further information. I do not endorse the views or actions of the original article author, This project was intended to act as commentary on the current state of AI generated porn and the lack of regulations along with just a fun coding project based off that idea. It does not pay homage to the original author of the SCP itself, their actions or pay tribute to them.**
 
