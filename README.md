@@ -9,4 +9,6 @@ With the advent of AI and the lack of regulation in the space I constantly get b
 WEBSITELINKLATER will direct users to the site, it will have a "functional" search feature that takes users to a "thumbnail" page which shows them dozens of generic vidoe boxes with the titles replaced by their search words. A randomized play count, timer and "universe number" is added to each section to add to the immersion that the videos themselves are real. (In my incantation of the story i beleiev each video or image the user makes is actually a recording from an alternate reality). Once the user clicks on an image or title it takes them to a psudo seizrue image stating the website has been seized by the SCP, their location is tracked and to wait for further instructions.
 
 # Screenshots
-Coming soon
+To be updated soon
+![Screenshot 2025-07-01 232319](https://github.com/user-attachments/assets/cf04bdc6-c63f-426b-a755-ef21cb96be8a)
+![Screenshot 2025-07-01 232338](https://github.com/user-attachments/assets/a4c15140-9bf7-4128-9053-bcdfd9520912)
