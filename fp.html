@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Fallout UI - ASCII Search</title>
+<title>FactoryPorn v6.9</title>
 <style>
   html, body {
     height: 100%;
@@ -134,13 +134,13 @@
 /_/    \__,_/\___/\__/\____/_/   \__, /_/    \____/_/  /_/ /_/ 
                                 /____/                         
       </pre>
-      <div class="tagline">Example text, replace me soon</div>
+      <div class="tagline">Unlimited posibilites, endless Choices, be careful what you wish for</div>
       <div class="search-wrapper">
         <input type="search" name="search" placeholder="Search..." aria-label="Search" />
         <button type="button" onclick="window.location.href='seized.html'">Search</button>
       </div>
       <div class="statistics">
-        Images: 19999 &nbsp;&nbsp;&nbsp; Videos: 99999 &nbsp;&nbsp;&nbsp; Unique searches: 888
+        Images: ERROR &nbsp;&nbsp;&nbsp; Videos: ∞ &nbsp;&nbsp;&nbsp; Unique searches: 96,834
       </div>
     </div>
 
@@ -148,6 +148,160 @@
       <a href="#" onclick="alert('About clicked')">About</a>
       <a href="#" onclick="alert('Contact clicked')">Contact</a>
       <a href="#" onclick="alert('Help clicked')">Help</a>
+    </nav>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FactoryPorn v6.9</title>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color: #FF3366;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .container {
+    border: 5px solid #FF3366;
+    width: 90vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .top-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  pre.ascii-art {
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 0 0 10px 0;
+    white-space: pre;
+    color: #FF3366;
+    text-shadow: 0 0 5px #FF3366, 0 0 10px #FF3366, 0 0 20px #FF3366;
+  }
+
+  .tagline {
+    font-size: 14px;
+    color: #FF6688;
+    margin-bottom: 30px;
+  }
+
+  .search-wrapper {
+    display: flex;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+  }
+
+  input[type="search"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+    background-color: black;
+    border: 2px solid #FF3366;
+    color: #FF3366;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+  }
+
+  input[type="search"]::placeholder {
+    color: #FF6688;
+  }
+
+  input[type="search"]:focus {
+    background-color: #220011;
+    border-color: #FF3366;
+  }
+
+  button {
+    background-color: #FF3366;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #FF6688;
+  }
+
+  .statistics {
+    color: #FF6688;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+
+  .bottom-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+  }
+
+  .bottom-buttons a {
+    color: #FF3366;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .bottom-buttons a:hover {
+    text-decoration: underline;
+    color: #FF6688;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-section">
+      <pre class="ascii-art">
+    ______           __                   ____                 
+   / ____/___ ______/ /_____  _______  __/ __ \____  _________ 
+  / /_  / __ `/ ___/ __/ __ \/ ___/ / / / /_/ / __ \/ ___/ __ \
+ / __/ / /_/ / /__/ /_/ /_/ / /  / /_/ / ____/ /_/ / /  / / / /
+/_/    \__,_/\___/\__/\____/_/   \__, /_/    \____/_/  /_/ /_/ 
+                                /____/                         
+      </pre>
+      <div class="tagline">Unlimited posibilites, endless Choices, be careful what you wish for</div>
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search..." aria-label="Search" />
+        <button type="button" onclick="window.location.href='seized.html'">Search</button>
+      </div>
+      <div class="statistics">
+        Images: ERROR &nbsp;&nbsp;&nbsp; Videos: ∞ &nbsp;&nbsp;&nbsp; Unique searches: 96,834
+      </div>
+    </div>
+
+    <nav class="bottom-buttons">
+      <a href="#" onclick="alert('About clicked')">About</a>
+      <a href="#" onclick="alert('Contact clicked')">Contact</a>
+      <a href="#" onclick="alert('Help will not arrive')">Help</a>
     </nav>
   </div>
 </body>
